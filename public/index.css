@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+
+}
+.bodyDiv{
+    background-color: black;
+    padding-top: 2.5%;
+
+    /* margin-right: 5%; */
+}
+.navDiv{
+    background-color: #1C1C1C;
+    width: 90%;
+    margin:0% 5%;
+    border-radius: 55px;
+    border: 1px solid ;
+}
+.logo{
+    width: 10% !important;
+    margin-left: 2%;
+}
+.logo img {
+    width: 180%;
+    margin-left: 0 !important;
+}
+.LogoDiv{
+    display: flex;
+    gap: 2px;
+    margin-left: 2%;
+}
+.LogoDiv h3{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+
+}
+.navMenu a{
+    color: white !important;
+    background-color: #262626;
+    padding: 7px 15px !important;
+    border: 1px solid #262626;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+.MenuDiv{
+    margin-left: 17%;
+}
+.RegisterDiv button{
+    gap: 15px;
+    background-color: #CAFF33;
+    width: 130%;
+    margin-left: 5%;
+    color: black !important;
+    border-radius: 25px;
+}
+.RegDiv{
+    width: 140%;
+}
+.RegisterDiv{
+    margin-left: 17% !important;
+}
+.LoginBtn button{
+    color: white;
+}
+#HeroHeadDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.HeroDivOne{
+    /* margin-top: 10%; */
+    margin: 10%;
+}
+.LLCText{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 5px !important;
+    padding-top: 10px !important;
+    /* padding-bottom: 3px !important; */
+    padding-left: 15px;
+    border-radius: 35px;
+    width: 55%;
+    /* height: 1%!important; */
+}
+#WelcomeDiv{
+    margin-top: 1%;
+    color: white;
+    width: 90%;
+    font-family: "Lexend", sans-serif;
+}
+#WelcomeDiv h2{
+    line-height: 150% !important;
+}
+#WelcomeDiv span{
+    color: #CAFF33 !important;
+}
+/* #WelcomeColoured span{
+    color: #CAFF33 !important;
+    font-family: "Lexend", sans-serif !important;
+} */
+#DescriptionDiv{
+    margin-top: 1%;
+    color: #B3B3B3;
+    width: 100%;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+#OpenAcc{
+    margin-top: 5%;
+}
+#OpenAccBtn{
+    background-color: #CAFF33;
+    border-radius: 35px;
+    border: none;
+    padding: 10px 15px;
+    font-family: "Lexend", sans-serif;
+}
+.TransacContainer{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.TransacDiv{
+    width: 75%;
+}
+.ProductsContainer{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.ProductsContainer h2{
+    color: white;
+}
+.ProductText{
+    color: #CAFF33 !important;
+    font-family: "Lexend", sans-serif;
+}
+.productsDesc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.DescProducts {
+    font-family: "Lexend", sans-serif;
+    width: 100%;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 300;
+}
+.DescBtn{
+    width: 45%;
+    align-items: center;
+    margin-left: 40%;
+    padding: 2% 1% 2% 1%;
+    border-radius: 50px;
+    background-color: #262626;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.DescBtnOne{
+    background-color: #CAFF33;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.DescBtnTwo{
+    background-color: #262626;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+}
+.ProductsListDiv{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ProductsList{
+    border-right: 0.05px solid #262626 !important;
+    align-items: center;
+   /* border: ; */
+}
+.ProductImg{
+    width: 20%;
+    margin-left: 40%;
+}
+.ProductHead{
+    margin-left: 33%;
+    color: white;
+    font-weight: 100;
+    font-family: "Lexend", sans-serif;
+
+}
+.ProductNormalTxt{
+    padding: 7%;
+    text-align: center;
+}
+.ProductNormalTxt p{
+    color: #B3B3B3;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: "Lexend", sans-serif;
+
+}
+#UseCasesDiv{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.CaseHead{
+    color: white;
+    font-family: "Lexend", sans-serif;
+
+}
+.CaseHead span{
+    color: #CAFF33 !important;
+}
+#CasesNormalText p{
+    color: #B3B3B3 !important;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#CasesGrid{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 50% 1fr;
+}
+.CaseGridImage{
+    width: 90%;
+}
+#CaseGridTwo{
+    margin-top: 5%;
+}
+#GridTwoHead{
+    color: white;
+    font-family: "Lexend", sans-serif;
+}
+.GridNormText{
+    margin-top: 5%;
+    width: 90%;
+    color: #B3B3B3;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+}
+.PercentageGrid{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.PercentageGrid h1{
+    color: #CAFF33;
+    /* font-size: larger; */
+    font-weight: 700;
+    font-family: "Lexend", sans-serif;
+}
+.PercentageGrid p{
+    width: 70%;
+    color: #B3B3B3;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    margin-top: 4%;
+}
+.MainGrid{
+    width: 80%;
+    border-right: 1.8px dashed #262626;
+}
+.LearnBtn button{
+    background-color: #262626;
+    border: 0px solid #B3B3B3;
+    /* box-shadow: #B3B3B3 0.5px 1px 0.5px ; */
+    margin-top: 7%;
+    padding: 2% 3%;
+    border-radius: 30px;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+}
+.MPDivTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.MPDivTwoImg{
+    width: 90%
+}
+#FeaturesPage{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.FeaturesHead{
+    color: white;
+}
+.FeaturesHead h2 span{
+    color: #CAFF33;
+    font-family: "Lexend", sans-serif;
+    
+}
+.FeaturesHead p{
+    color: #B3B3B3;
+    width: 80%;
+    font-size: 14px;
+}
+#FeaturesList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-right: 5%;
+}
+#FtsList{
+    background-color: #1C1C1C;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    padding: 10% ;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+#FtsList a{
+    color: white;
+    text-decoration: none;
+    border:1px solid black;
+    border-radius: 30px;
+    padding: 5% 6%;
+    background-color: #262626;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+}
+.OnlineBanking{
+    color: #CAFF33 !important;
+    background-color: #1C1C1C !important;
+}
+.MainTimeAccessDiv{
+    background-color: #262626;
+    border-radius: 10px;
+    font-family: "Lexend", sans-serif;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.TimeAccessDiv{
+    gap: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding-bottom: 10%;
+    
+}
+.TimeAccessTextDiv h6{
+    font-size: 14px !important;
+    font-weight: 300;
+    width: 270%;
+    margin-left: 10%;
+}
+.ArrowIcon{
+    width: 30%;
+}
+.NormTxtTimeAccessDiv p{
+    color: #B3B3B3;
+    font-size: 12px;
+    margin-right: 5%;
+}
+.MainAccessTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    margin-left: 35.2%;
+    margin-top: 3%;
+    width: 60%;
+}
+.AnotherDiv{
+    background-color: #1C1C1C !important;
+}
+.FrequentlyDiv{
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family: "Lexend", sans-serif;
+
+}
+.FAQHead{
+    color: white;
+}
+.FAQHeadSpan{
+    color: #CAFF33;
+}
+.FAQHead p{
+    font-size: 12px;
+    color: #B3B3B3;
+}
+.FAQElementsOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+}
+.FAQGrdOne{
+    padding: 5% 5%;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    width: 85%;
+}
+.FAQGrdOne h6{
+    font-family: "Lexend", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.FAQGrdOne hr{
+    background-color: #262626;
+}
+.FAQGrdOne p{
+    color: #B3B3B3;
+    font-size: 12px;
+    font-family: "Lexend", sans-serif;
+    /* opacity: 0.5; */
+}
+.FAQElementsTwo{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+}
+.FAQBtn{
+    align-items: center;
+    padding-left:  40% ;
+    padding-top: 2%;
+}
+.FAQBtn button{
+    color: white;
+    background-color: #1C1C1C;
+    border:1px solid #262626 ;
+    border-radius: 30px;
+    align-items: center;
+    padding: 10px;
+}
